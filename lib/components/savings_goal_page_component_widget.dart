@@ -98,7 +98,7 @@ class _SavingsGoalPageComponentWidgetState
                         type: PageTransitionType.fade,
                         child: FlutterFlowExpandedImageView(
                           image: Image.asset(
-                            'assets/images/Screenshot_2026-02-10_at_12.46.27_AM.png',
+                            'assets/images/newlogo.png',
                             fit: BoxFit.contain,
                           ),
                           allowRotation: false,
@@ -114,7 +114,7 @@ class _SavingsGoalPageComponentWidgetState
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(24.0),
                       child: Image.asset(
-                        'assets/images/Screenshot_2026-02-10_at_12.46.27_AM.png',
+                        'assets/images/newlogo.png',
                         width: 391.5,
                         height: 115.4,
                         fit: BoxFit.fitWidth,

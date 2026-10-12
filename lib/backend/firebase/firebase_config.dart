@@ -5,12 +5,12 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyAf44tsU9NqiLcTC9pFjTVs0qwvB6YH20s",
-            authDomain: "to-do-xsgou3.firebaseapp.com",
-            projectId: "to-do-xsgou3",
-            storageBucket: "to-do-xsgou3.firebasestorage.app",
-            messagingSenderId: "982652496155",
-            appId: "1:982652496155:web:a604c33cf5558260494bbe"));
+            apiKey: "AIzaSyDlNa315V7v7XUpDSLgZX3Sn4vUe5Ql1NU",
+            authDomain: "to-do-0at3j4.firebaseapp.com",
+            projectId: "to-do-0at3j4",
+            storageBucket: "to-do-0at3j4.firebasestorage.app",
+            messagingSenderId: "410552283159",
+            appId: "1:410552283159:web:5482bae98e44aed17eec52"));
   } else {
     await Firebase.initializeApp();
   }
