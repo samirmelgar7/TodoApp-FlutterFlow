@@ -16,7 +16,7 @@ class InspirationalQuoteCall {
   }) async {
     return ApiManager.instance.makeApiCall(
       callName: 'Inspirational Quote',
-      apiUrl: 'https://zenquotes.io/api/today',
+      apiUrl: 'https://zenquotes.io/api/random',
       callType: ApiCallType.GET,
       headers: {},
       params: {},
